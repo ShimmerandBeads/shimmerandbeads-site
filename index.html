@@ -1,47 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ShimmerandBeads</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Shimmer & Beads</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #000;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(to right, #000, #111);
+      border-bottom: 1px solid gold;
+    }
+
+    header h1 {
+      color: gold;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      color: gold;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border: 1px solid gold;
+      color: gold;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    .hero img {
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .section h3 {
+      color: gold;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #222;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .card h4 {
+      margin: 10px 0;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid gold;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>ShimmerandBeads</h1>
-    <p>Handmade Beaded Jewelry</p>
-  </header>
+<header>
+  <h1>Shimmer & Beads</h1>
+  <p>Handmade. Timeless. Uniquely Yours.</p>
+</header>
 
-  <section class="hero">
-    <h2>Welcome to My Shop</h2>
-    <p>Unique handmade jewelry made with love.</p>
-  </section>
-
- <section class="products">
-  <h2>Featured Items</h2>
-
-  <div class="card">
-    <img src="bracelet.jpg" width="200">
-    <p>Custom Bracelet - $10</p>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Handmade to Shine</h2>
+    <p>Vibrant bracelets & bold earrings made with love.</p>
+    <a class="btn" href="https://payhip.com/ShimmerandBeads" target="_blank">Shop Now</a>
   </div>
 
-  <div class="card">
-    <img src="beadset.jpg" width="200">
-    <p>Bead Set - $20</p>
-  </div>
+  <!-- REPLACE THIS IMAGE -->
+  <img src="images/bracelet1.jpg" alt="Bracelet">
+</section>
 
-  <div class="card">
-    <img src="necklace.jpg" width="200">
-    <p>Name Necklace - $25</p>
+<!-- BRACELETS -->
+<section class="section">
+  <h3>Bracelets</h3>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="images/bracelet2.jpg">
+      <h4>Ocean Plum</h4>
+    </div>
+
+    <div class="card">
+      <img src="images/bracelet3.jpg">
+      <h4>Golden Sunflower</h4>
+    </div>
+
+    <div class="card">
+      <img src="images/bracelet4.jpg">
+      <h4>Bubble Blush</h4>
+    </div>
+
+    <div class="card">
+      <img src="images/bracelet5.jpg">
+      <h4>Fire Blaze</h4>
+    </div>
+
   </div>
 </section>
 
+<!-- EARRINGS -->
+<section class="section">
+  <h3>Earrings</h3>
 
-  </section>
+  <div class="grid">
 
-  <footer>
-    <p>Contact: shimmerandbeads@email.com</p>
-  </footer>
+    <div class="card">
+      <img src="images/earring1.jpg">
+      <h4>Radiance Hoops</h4>
+    </div>
+
+    <div class="card">
+      <img src="images/earring2.jpg">
+      <h4>Beaded Drops</h4>
+    </div>
+
+    <div class="card">
+      <img src="images/earring3.jpg">
+      <h4>Color Pop Hoops</h4>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Shimmer & Beads</p>
+</footer>
 
 </body>
 </html>
