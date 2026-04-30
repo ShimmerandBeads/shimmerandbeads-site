@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #fffafc;
+  color: #222;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #ff4da6, #ff85c2);
+  color: white;
+  padding: 30px 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff0f6;
+}
+
+.hero h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+/* PRODUCTS */
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
