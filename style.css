@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: #fffafc;
+  font-family: Arial, sans-serif;
+  background: #fff7fa;
   color: #222;
 }
 
@@ -9,19 +9,18 @@ body {
 header {
   background: linear-gradient(135deg, #ff4da6, #ff85c2);
   color: white;
-  padding: 30px 15px;
   text-align: center;
-  letter-spacing: 1px;
+  padding: 35px 20px;
 }
 
 header h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 34px;
+  letter-spacing: 1px;
 }
 
 header p {
-  margin-top: 5px;
-  font-size: 14px;
+  margin-top: 8px;
   opacity: 0.9;
 }
 
@@ -29,28 +28,27 @@ header p {
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: #fff0f6;
 }
 
 .hero h2 {
-  font-size: 26px;
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
 /* PRODUCTS */
 .products {
-  padding: 40px 20px;
   text-align: center;
+  padding: 30px 20px;
 }
 
 .card {
   background: white;
+  width: 260px;
   margin: 15px auto;
   padding: 20px;
-  width: 250px;
   border-radius: 15px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
 }
 
 .card:hover {
@@ -65,3 +63,4 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+
